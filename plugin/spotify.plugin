@@ -2,7 +2,7 @@
 #!desc=2024.05.27 partially unlocks premium, (it is recommended to log in before opening the script, restart the app and wait for the script to take effect)
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 #!openUrl=https://github.com/app2smile/rules
-# Functions: 1.Remove playback ads 2.Singer/album list displays normally 3.Remove random play
+#Functions:1.Remove playback ads 2.Singer/album list displays normally 3.Remove random play
 
 [Rewrite]
 ^https:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ header-del if-none-match
